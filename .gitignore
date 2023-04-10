@@ -1,6 +1,6 @@
 # Ignore all
 *
-!Dockerfile
+# !Dockerfile
 
 # Unignore all with extensions
 !*.*
@@ -92,3 +92,45 @@ my_settings.txt
 borrar/*
 
 */ExecMean.txt
+
+
+
+#
+CMakeFiles/*
+Thirdparty/g2o/CMakeFiles/*
+*cmake_install.cmake
+
+
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
